@@ -1,2 +1,2 @@
 # gostratum
-Stratum (Electrum) client implementation in GO
+Stratum (Electrum) client implementation in GOLANG
