@@ -5,7 +5,6 @@ import (
     "bufio";
     "time";
     "encoding/json";
-    "fmt"
     "strconv"
 )
 
@@ -47,7 +46,6 @@ func (c *Client) Listen(){
             c.dispatcher.Error(err)
             continue
         }
-        fmt.Println("got: ",result)
         response := &Response{}
         err = c.decoder.Decode(result, response)
         if err!=nil{
@@ -132,7 +130,6 @@ func (c *Client) AddressGetHistory(address string) ([]AddressTransaction, error)
 
 func (c *Client) AddressGetMemPool(address string) error{
     response := c.Request("blockchain.address.get_mempool", address)
-    fmt.Println("response: ",response)
     return nil
 }
 

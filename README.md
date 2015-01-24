@@ -1,8 +1,8 @@
 # gostratum
 Stratum (Electrum) client implementation in GOLANG. 
 ##documentation
-[API Reference](docs/api.md)<br />
-[Address Watch example](docs/address_example.md)<br />
+[API Reference](doc/api.md)<br />
+[Address Watch example](examples/address_watch.go)<br />
 ##status
 Package is not tested yet, is not recommended to use it in production at this point
 ##installation
