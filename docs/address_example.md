@@ -1,0 +1,1 @@
+##gostratum address watch example
