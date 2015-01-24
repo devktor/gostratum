@@ -1,15 +1,15 @@
 # gostratum
 Stratum (Electrum) client implementation in GOLANG. 
-##Documentation
-API Reference
-Address Watch example
-##Status
+##documentation
+(API Reference)[api.md]
+(Address Watch example)[address_example.md]
+##status
 Package is not tested yet, is not recommended to use it in production at this point
-##Installation
+##installation
 go get https://github.com/devktor/gostratum
-##Concurency
+##concurency
 It is safe to use Client object in multiple goroutines.
-##Protocol Compliance
+##protocol compliance
 Implements protocol specifications according to https://docs.google.com/document/d/17zHy1SUlhgtCMbypO8cHgpWH73V5iUQKk_0rWvMqSNs/edit?hl=en_US
 
 
