@@ -1,5 +1,5 @@
 ## gostratum
-Stratum (Electrum) client implementation in GOLANG. 
+Stratum (Electrum) client implementation in Go. 
 ###documentation
 [API Reference](doc/api.md)<br />
 [Bitcoin Address Watch example](examples/address_watch.go)<br />
